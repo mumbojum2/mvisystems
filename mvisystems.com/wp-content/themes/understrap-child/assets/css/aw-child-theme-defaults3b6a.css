@@ -1,0 +1,216 @@
+/* default styles for the understrap child theme */
+
+#menu-sidebar,
+a,
+.nav-tabs .nav-link::before,
+#page .btn.btn-primary::before,
+#page .btn-light-wrapper::before,
+figcaption.hover-title,
+#page li.menu-btn > a:hover::before,
+button.accordion-button::before,
+.carousel-indicators > li::before,
+.carousel-indicators > li.gallery-thumbnail,
+a.image-wrapper-link::before,
+#page .btn-primary-wrapper::before,
+#page button.bellows-subtoggle::before,
+#page .btn.btn-light::before {
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+ul.aw-hover-menu > li.dropdown > ul.dropdown-menu {
+    display: block;
+    left: 9999px;
+}
+ul.aw-hover-menu > li.dropdown:hover > ul.dropdown-menu,
+ul.aw-hover-menu > li.dropdown > a:focus+ul.dropdown-menu,
+ul.aw-hover-menu > li.dropdown.focus ul.dropdown-menu,
+ul.aw-hover-menu > li.dropdown > ul.dropdown-menu:focus {
+    display: block;
+    top: 90%;
+    left: 0;
+}
+
+a#mobile-nav-toggle {
+    font-size: 1.75rem;
+    color: #2E2F31;
+}
+
+#menu-sidebar.open {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -webkit-transform-origin: left;
+    -moz-transform-origin: left;
+    -o-transform-origin: left;
+    transform-origin: left;
+    -webkit-box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+#menu-sidebar {
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 100vh;
+    max-width: 100%;
+	background-color: #fff;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    -webkit-transform-origin: left;
+    -moz-transform-origin: left;
+    -o-transform-origin: left;
+    transform-origin: left;
+    overflow: auto;
+    overflow: inherit;
+	padding: 0.5rem 1rem 3rem;
+	z-index: 9999;
+    overflow-y: scroll;
+
+}
+.admin-bar #menu-sidebar {
+    top: 32px;
+}
+
+#menu-sidebar a {
+    padding: 0.5rem 0;
+    font-weight: 400;
+    font-size: 1.25em;
+    color: #2E2F31;
+}
+.close {
+    opacity: 1;
+    float: none;
+    text-shadow: none;
+}
+#menu-sidebar .close-wrapper {
+    text-align: right;
+    margin: 1rem auto;
+}
+
+#menu-sidebar #menu-social-icons {
+    display: block;
+}
+#menu-sidebar .contact-link {
+    font-size: 1rem;
+}
+#menu-sidebar ul#menu-social-nav li {
+    margin-left: 0rem;
+}
+
+ul#sidebar-menu > li {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+#menu-sidebar ul {
+    list-style: none;
+}
+ul#sidebar-menu ul {
+    margin-top: 1rem;
+}
+ul#sidebar-menu ul > li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+ul#sidebar-menu ul > li:last-child {
+    margin-bottom: 0;
+}
+
+
+.col-inner > *:last-child,
+.site-info > *:last-child {
+    margin-bottom: 0;
+}
+
+.bg-image {
+    background-position: center;
+    background-size: cover;
+}
+
+.content-section {
+    position: relative;
+    z-index: 1;
+}
+
+#page span.wpcf7-spinner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.padding-sm {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.padding-md {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.padding-lg {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+figure.image-wrapper {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+figure.image-wrapper > img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:  translate(-50%, -50%);
+    min-height: 100%;
+    min-width: 100%;
+    height: auto;
+    width: auto;
+    object-fit: cover;
+}
+
+#page .dropdown-item.active,
+#page .dropdown-item:active,
+#page ul.dropdown-menu > li.menu-item:hover > .dropdown-item {
+    background-color: #efefef;
+    color: inherit;
+}
+ul.dropdown-menu {
+    padding: 0;
+    border-radius: 0;
+}
+ul.dropdown-menu  a.dropdown-item {
+    padding: 1rem 2rem;
+}
+.full-width-media figure.image-wrapper, 
+.full-width-media .video-wrapper {
+    height: 35vw;
+    max-height: 500px;
+    min-height: 275px;
+}
+.full-width-media figure.image-wrapper, .full-width-media .video-wrapper {
+    margin-bottom: 0;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+.video-wrapper > video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,40 @@
+.acf-map {
+    width: 100%;
+    margin: 0;
+    heighT: auto;
+    border: none;
+    padding-top: 64%;
+    margin-bottom: 2rem;
+    border: solid 2px #fff;
+    border-radius: 5px;
+}
+
+/* // Fixes potential theme css conflict. */
+.acf-map img {
+   max-width: inherit !important;
+}
+
+#nav-tab-maps a.nav-link {
+    border: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+#nav-tab-maps a.nav-link::after {
+    display: none;
+}
+#nav-tab-maps {
+    border: none;
+}
+#nav-tab-maps a.nav-link:not(.active) {
+    opacity: 0.5
+}
+#nav-maps > .tab-pane:not(.active) {
+    height: 0px !important;
+    overflow: hidden;
+    display: block;
+}
+
+.slider-wrapper {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
