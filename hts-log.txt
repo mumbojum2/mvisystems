@@ -1,0 +1,74 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 27 Mar 2025 22:25:13 at https://mvisystems.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwr3%e3C2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://mvisystems.com/ -O1 "C:\My Web Sites\mvi\mvi copy2" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:25:40	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://mvisystems.com/)
+22:26:14	Warning: 	file not stored in cache due to bogus state (broken size, expected 34027520 got 4331146): https://mvisystems.com/wp-content/uploads/mvi-apps/MVI_Desktop_Client.msi
+22:27:17	Warning: 	Link https://mvisystems.com/cdn-cgi/l/email-protection not scanned (follow robots meta tag)
+22:27:20	Warning: 	Moved Permanently for https://mvisystems.com/?p=6
+22:27:20	Warning: 	File has moved from https://mvisystems.com/?p=6 to https://mvisystems.com/how-it-works/
+22:27:20	Warning: 	Moved Permanently for https://mvisystems.com/about-us/contact-us/
+22:27:20	Warning: 	File has moved from https://mvisystems.com/about-us/contact-us/ to /contact-us/
+22:27:20	Warning: 	Moved Permanently for https://mvisystems.com/?p=50
+22:27:20	Warning: 	File has moved from https://mvisystems.com/?p=50 to https://mvisystems.com/management-companies/
+22:27:20	Warning: 	Moved Permanently for https://mvisystems.com/?p=130
+22:27:20	Warning: 	File has moved from https://mvisystems.com/?p=130 to https://mvisystems.com/dealers/
+22:27:20	Warning: 	Moved Permanently for https://mvisystems.com/?p=131
+22:27:20	Warning: 	File has moved from https://mvisystems.com/?p=131 to https://mvisystems.com/residents/
+22:27:20	Warning: 	Moved Permanently for https://mvisystems.com/?p=99
+22:27:20	Warning: 	File has moved from https://mvisystems.com/?p=99 to https://mvisystems.com/products/keycom-bolt/
+22:27:20	Warning: 	Moved Permanently for https://mvisystems.com/?p=100
+22:27:20	Warning: 	File has moved from https://mvisystems.com/?p=100 to https://mvisystems.com/products/keycom-lite/
+22:27:20	Warning: 	Moved Permanently for https://mvisystems.com/?p=102
+22:27:20	Warning: 	File has moved from https://mvisystems.com/?p=102 to https://mvisystems.com/products/pedestals-and-mounts/
+22:27:20	Warning: 	Moved Permanently for https://mvisystems.com/?p=103
+22:27:20	Warning: 	File has moved from https://mvisystems.com/?p=103 to https://mvisystems.com/products/accessories/
+22:27:20	Warning: 	Moved Permanently for https://mvisystems.com/?p=2224
+22:27:20	Warning: 	File has moved from https://mvisystems.com/?p=2224 to https://mvisystems.com/gated-communities/
+22:27:20	Warning: 	Moved Permanently for https://mvisystems.com/?p=129
+22:27:20	Warning: 	File has moved from https://mvisystems.com/?p=129 to https://mvisystems.com/commercial-video-intercom-access/
+22:27:20	Warning: 	Moved Permanently for https://mvisystems.com/?p=104
+22:27:20	Warning: 	File has moved from https://mvisystems.com/?p=104 to https://mvisystems.com/products/package-room/
+22:27:20	Warning: 	Moved Permanently for https://mvisystems.com/resources/download-apps/
+22:27:20	Warning: 	File has moved from https://mvisystems.com/resources/download-apps/ to /download-apps/
+22:27:20	Warning: 	Moved Permanently for https://mvisystems.com/?p=2085
+22:27:20	Warning: 	File has moved from https://mvisystems.com/?p=2085 to https://mvisystems.com/student-housing-security/
+22:27:20	Warning: 	Moved Permanently for https://mvisystems.com/?p=111
+22:27:20	Warning: 	File has moved from https://mvisystems.com/?p=111 to https://mvisystems.com/download-apps-my-mvi-mobile-app/
+22:27:20	Warning: 	Retry after error -4 (Incorrect length (4331146 Bytes, 34027520 expected)) at link https://mvisystems.com/wp-content/uploads/mvi-apps/MVI_Desktop_Client.msi (from https://mvisystems.com/download-apps-my-mvi-mobile-app/)
+22:27:20	Warning: 	Retry after error -4 (No data (connection closed)) at link https://mvisystems.com/wp-json/wp/v2/pages/112 (from https://mvisystems.com/integrations/)
+22:27:20	Warning: 	Moved Permanently for https://mvisystems.com/?p=112
+22:27:20	Warning: 	File has moved from https://mvisystems.com/?p=112 to https://mvisystems.com/integrations/
+22:27:20	Warning: 	Moved Permanently for https://mvisystems.com/?p=113
+22:27:20	Warning: 	File has moved from https://mvisystems.com/?p=113 to https://mvisystems.com/case-studies/
+22:27:21	Warning: 	Moved Permanently for https://mvisystems.com/?p=114
+22:27:21	Warning: 	File has moved from https://mvisystems.com/?p=114 to https://mvisystems.com/user-guide/
+22:27:21	Warning: 	Moved Permanently for https://mvisystems.com/?p=115
+22:27:21	Warning: 	File has moved from https://mvisystems.com/?p=115 to https://mvisystems.com/training-videos/
+22:27:21	Warning: 	Moved Permanently for https://mvisystems.com/?p=116
+22:27:21	Warning: 	File has moved from https://mvisystems.com/?p=116 to https://mvisystems.com/competitive-landscape-keycom-access-control/
+22:27:21	Warning: 	Moved Permanently for https://mvisystems.com/?p=117
+22:27:21	Warning: 	File has moved from https://mvisystems.com/?p=117 to https://mvisystems.com/fact-sheets/
+22:27:21	Warning: 	Moved Permanently for https://mvisystems.com/?p=118
+22:27:21	Warning: 	File has moved from https://mvisystems.com/?p=118 to https://mvisystems.com/faqs/
+22:27:21	Warning: 	Moved Permanently for https://mvisystems.com/?p=1783
+22:27:21	Warning: 	File has moved from https://mvisystems.com/?p=1783 to https://mvisystems.com/contact-us/
+22:27:21	Warning: 	Moved Permanently for https://mvisystems.com/?p=132
+22:27:21	Warning: 	File has moved from https://mvisystems.com/?p=132 to https://mvisystems.com/gallery/
+22:27:21	Warning: 	Moved Permanently for https://mvisystems.com/?p=138
+22:27:21	Warning: 	File has moved from https://mvisystems.com/?p=138 to https://mvisystems.com/clients/
+22:27:24	Warning: 	Moved Permanently for https://mvisystems.com/?p=139
+22:27:24	Warning: 	File has moved from https://mvisystems.com/?p=139 to https://mvisystems.com/mvi-press/
+22:27:24	Warning: 	Moved Permanently for https://mvisystems.com/?p=55
+22:27:24	Warning: 	File has moved from https://mvisystems.com/?p=55 to https://mvisystems.com/request-quote/
+22:27:25	Warning: 	Moved Permanently for https://mvisystems.com/?p=2242
+22:27:25	Warning: 	File has moved from https://mvisystems.com/?p=2242 to https://mvisystems.com/accessibility/
+22:27:25	Warning: 	Moved Permanently for https://mvisystems.com/?p=3
+22:27:25	Warning: 	File has moved from https://mvisystems.com/?p=3 to https://mvisystems.com/privacy-policy/
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 13 seconds : 523 links scanned, 490 files written (127616143 bytes overall) [121388638 bytes received at 912696 bytes/sec], 8662508 bytes transferred using HTTP compression in 180 files, ratio 24%, 20.1 requests per connection
+(1 errors, 62 warnings, 0 messages)
